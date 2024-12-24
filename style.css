@@ -1,0 +1,128 @@
+* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+    
+
+
+header {
+    background-image:url('data:image/jpeg;base64,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');
+    color: red;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 15px;
+    }
+
+        nav ul li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+
+main {
+    padding: 2rem;
+    background-image:url('ll.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Makes the background fixed when scrolling */
+    background-position: center; /* Centers the image */
+    font-family: Arial, sans-serif; /* Optional: Sets a default font for your webpage */
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    position: fixed;
+    width: 100%;
+ }
+ h2{
+    color: brown;
+ }
+ 
+footer {
+    background-image:url('ll.jpg');
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Contact form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+    form label {
+        margin-top: 10px;
+    }
+
+    form input, form textarea {
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 400px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    form button {
+        background-color: #333333;
+        color: white;
+        padding:10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        form button:hover {
+            background-color: #555;
+        }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-right: 0;
+    }
+
+    header, footer {
+        text-align: left;
+        padding-left: 20px;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    background-image: url('ll.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Make the background fixed while scrolling */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Full viewport height */
+}
+
+main {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Add semi-transparent background for better readability */
+    border-radius: 20px;
+    margin: 2rem auto;
+    max-width: 800px; /* Optional: Limit the width of the content */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add some shadow for a clean look */
+}
+
